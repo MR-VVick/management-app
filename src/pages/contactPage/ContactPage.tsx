@@ -6,7 +6,7 @@ import Contact from '../../components/contact/Contact';
 import { useDispatch } from 'react-redux';
 import { addContact, deleteContact, editContact } from './contactPage.actions';
 import { useSelector } from 'react-redux';
-import ContactDetailsModal from '../../components/contactDetailsModal/ContactDetailsModal';
+import ContactDetailsModal from '../../components/contactDetailModal/ContactDetailModal';
 
 const ContactPage: React.FC = () => {
     const [isModalOpen, setModalOpen] = useState(false);
