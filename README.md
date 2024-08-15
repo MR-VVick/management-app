@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# API Endpoints
+To fetch COVID-19 data, I have used the following API endpoints:
+
+### Country-Specific Data of Cases
+Endpoint: https://disease.sh/v3/covid-19/countries
+Description: This endpoint provides COVID-19 data for all countries, including cases, deaths, and recoveries. I have used it for markers in the map.
+
+### Graph Data for Cases with Date
+Endpoint: https://disease.sh/v3/covid-19/historical/all?lastdays=all
+Description: This endpoint provides historical data for COVID-19 cases and deaths, including a timeline of cases and deaths globally. I have used it for the graphs.
